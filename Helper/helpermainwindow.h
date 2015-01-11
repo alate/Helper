@@ -16,6 +16,9 @@ public:
     ~HelperMainWindow();
 
 private:
+    void initConnections();
+
+private:
     Ui::HelperMainWindow *ui;
 };
 

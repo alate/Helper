@@ -13,8 +13,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        helpermainwindow.cpp
+        helpermainwindow.cpp \
+    repositorymanagedialog.cpp
 
-HEADERS  += helpermainwindow.h
+HEADERS  += helpermainwindow.h \
+    repositorymanagedialog.h
 
-FORMS    += helpermainwindow.ui
+FORMS    += helpermainwindow.ui \
+    repositorymanagedialog.ui

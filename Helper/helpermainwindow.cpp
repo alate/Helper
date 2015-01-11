@@ -6,9 +6,16 @@ HelperMainWindow::HelperMainWindow(QWidget *parent) :
     ui(new Ui::HelperMainWindow)
 {
     ui->setupUi(this);
+
+    initConnections();
 }
 
 HelperMainWindow::~HelperMainWindow()
 {
     delete ui;
+}
+
+HelperMainWindow::initConnections()
+{
+    connect(actionManage_Repository,SIGNAL(trigger()),this,);
 }
