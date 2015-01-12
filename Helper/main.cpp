@@ -1,10 +1,10 @@
-#include "helpermainwindow.h"
+#include "helperdialog.h"
 #include <QApplication>
 
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
-    HelperMainWindow w;
+    HelperDialog w;
     w.show();
 
     return a.exec();

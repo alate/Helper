@@ -1,6 +1,6 @@
 #-------------------------------------------------
 #
-# Project created by QtCreator 2015-01-11T09:32:56
+# Project created by QtCreator 2015-01-12T10:55:07
 #
 #-------------------------------------------------
 
@@ -13,11 +13,8 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        helpermainwindow.cpp \
-    repositorymanagedialog.cpp
+        helperdialog.cpp
 
-HEADERS  += helpermainwindow.h \
-    repositorymanagedialog.h
+HEADERS  += helperdialog.h
 
-FORMS    += helpermainwindow.ui \
-    repositorymanagedialog.ui
+FORMS    += helperdialog.ui
